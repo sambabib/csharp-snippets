@@ -1,0 +1,33 @@
+{
+  "name": "csharp-snippets-extension",
+  "displayName": "C# Snippets",
+  "description": "Code snippets for C#/.NET development",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/csharp.json"
+      }
+    ]
+  },
+  "publisher": "your-publisher-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/csharp-snippets-extension"
+  },
+  "keywords": [
+    "c#",
+    "csharp",
+    "snippets",
+    ".net",
+    "dotnet"
+  ],
+  "license": "MIT"
+}
