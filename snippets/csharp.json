@@ -99,5 +99,12 @@
       "}"
     ],
     "description": "Create an if statement"
+  },
+  "Console WriteLine": {
+    "prefix": "cw",
+    "body": [
+      "Console.WriteLine(\"${1:message}\");"
+    ],
+    "description": "Write a line to the console"
   }
 }
