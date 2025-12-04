@@ -106,5 +106,15 @@
       "Console.WriteLine(\"${1:message}\");"
     ],
     "description": "Write a line to the console"
+  },
+  "Async Method": {
+    "prefix": "ameth",
+    "body": [
+      "public async Task ${1:MethodName}Async(${2:CancellationToken cancellationToken = default})",
+      "{",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Create an async Task method"
   }
 }
