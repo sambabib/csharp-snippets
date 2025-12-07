@@ -116,5 +116,15 @@
       "}"
     ],
     "description": "Create an async Task method"
+  },
+  "Using Block": {
+    "prefix": "using",
+    "body": [
+      "using (var ${1:resource} = ${2:new Resource()} )",
+      "{",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Create a using block for IDisposable resources"
   }
 }
