@@ -126,5 +126,20 @@
       "}"
     ],
     "description": "Create a using block for IDisposable resources"
+  },
+  "Switch Statement": {
+    "prefix": "switch",
+    "body": [
+      "switch (${1:expression})",
+      "{",
+      "\tcase ${2:case1}:",
+      "\t\t${0}",
+      "\t\tbreak;",
+      "",
+      "\tdefault:",
+      "\t\tbreak;",
+      "}"
+    ],
+    "description": "Create a switch statement"
   }
 }
