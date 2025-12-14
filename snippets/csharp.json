@@ -141,5 +141,15 @@
       "}"
     ],
     "description": "Create a switch statement"
+  },
+  "Guard Clause": {
+    "prefix": "guard",
+    "body": [
+      "if (${1:parameter} is null)",
+      "{",
+      "\tthrow new ArgumentNullException(nameof(${1:parameter}));",
+      "}"
+    ],
+    "description": "Create an argument null guard clause"
   }
 }
