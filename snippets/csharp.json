@@ -151,5 +151,12 @@
       "}"
     ],
     "description": "Create an argument null guard clause"
+  },
+  "Logger Error": {
+    "prefix": "loge",
+    "body": [
+      "_logger.LogError(\"${1:Message}\");"
+    ],
+    "description": "Log an error message with ILogger"
   }
 }
